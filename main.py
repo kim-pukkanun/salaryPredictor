@@ -7,6 +7,7 @@ import tkinter as tk
 from tkinter import filedialog, messagebox
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 from matplotlib.figure import Figure
+from scipy import stats
 
 # Functions for buttons
 def browse_csv():
@@ -15,6 +16,19 @@ def browse_csv():
     if filepath:
         dataset = pd.read_csv(filepath)
         input_csv_var.set(filepath)
+
+def prediction_interval(input_data, y_pred, confidence=0.95):
+    n = x_train.shape[0]
+    x_mean = np.mean(x_train)
+    x_std = np.std(x_train)
+    t_score = stats.t.ppf((1 + confidence) / 2, n - 1)
+    standard_error = x_std / np.sqrt(n)
+    
+    margin_of_error = t_score * standard_error * np.sqrt(1 + (1 / n) + ((input_data - x_mean)**2) / np.sum((x_train - x_mean)**2))
+    lower_bound = y_pred - margin_of_error
+    upper_bound = y_pred + margin_of_error
+    
+    return lower_bound[0][0], upper_bound[0][0]
 
 def start_prediction():
     global x, y, x_train, x_test, y_train, y_test, regressor, y_pred
@@ -29,16 +43,25 @@ def start_prediction():
     if years_of_experience:
         input_data = np.array([years_of_experience]).reshape(-1, 1)
         y_pred = regressor.predict(input_data)
+        
+        lower_bound, upper_bound = prediction_interval(input_data, y_pred)  # Calculate prediction interval
     else:
         y_pred = regressor.predict(x_test)
 
     output_entry.delete(1.0, tk.END)  # Clear the output_entry widget
-    output_entry.insert(tk.END, str(y_pred))  # Insert the predicted salary
+    if years_of_experience:
+        output_entry.insert(tk.END, f"Predicted salary: {y_pred[0]:.2f}\nPrediction interval: ({lower_bound:.2f}, {upper_bound:.2f})")  # Insert the predicted salary and prediction interval
+    else:
+        output_entry.insert(tk.END, str(y_pred))  # Insert the predicted salary
 
     # Save input and output to the history file
     with open("history.txt", "a") as history_file:
         history_file.write(f"Years of experience: {years_of_experience}\n")
-        history_file.write(f"Predicted salary: {y_pred}\n\n")
+        history_file.write(f"Predicted salary: {y_pred[0]:.2f}\n")
+        if years_of_experience:
+            history_file.write(f"Prediction interval: ({lower_bound:.2f}, {upper_bound:.2f})\n\n")
+        else:
+            history_file.write("\n")
 
 def pre_train():
     global dataset, x, y, x_train, x_test, y_train, y_test, regressor
@@ -51,8 +74,17 @@ def pre_train():
     regressor = LinearRegression()
     regressor.fit(x_train, y_train)
 
+def calculate_test_accuracy():
+    y_pred_test = regressor.predict(x_test)
+    test_accuracy = regressor.score(x_test, y_test)  # Calculate R-squared
+    return test_accuracy * 100  # Return test accuracy as a percentage
+
 # Pre-train the model
 pre_train()
+
+# Calculate and display test accuracy for the pre-trained model
+pre_train_test_accuracy = calculate_test_accuracy()
+print(f"Pre-trained model test accuracy: {pre_train_test_accuracy:.2f}%")
 
 def train_model():
     global x, y, x_train, x_test, y_train, y_test, regressor
@@ -68,7 +100,9 @@ def train_model():
 
     regressor.fit(x_train, y_train)
 
-    messagebox.showinfo("Model Trained", "The model has been trained with the new data.")
+    # Calculate and display test accuracy for the user-trained model
+    user_train_test_accuracy = calculate_test_accuracy()
+    messagebox.showinfo("Model Trained", f"The model has been trained with the new data.\nTest accuracy: {user_train_test_accuracy:.2f}%")
 
 def export_text_file():
     global y_pred
