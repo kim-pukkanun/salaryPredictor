@@ -1,0 +1,344 @@
+Years of experience: 2
+Predicted salary: [64550.69080792]
+
+Years of experience: 50
+Predicted salary: [344875.46587314]
+
+Years of experience: 10
+Predicted salary: [111271.48665212]
+
+Years of experience: 100
+Predicted salary: [636880.43989941]
+
+Years of experience: 1000
+Predicted salary: [5892969.97237232]
+
+Years of experience: 1
+Predicted salary: [58710.5913274]
+
+Years of experience: 100
+Predicted salary: [1614.40845833]
+
+Years of experience: 100
+Predicted salary: [958037.61182355]
+
+Years of experience: 20
+Predicted salary: [213031.60168521]
+
+Years of experience: 1
+Predicted salary: [36092.67427736]
+
+Years of experience: 0
+Predicted salary: [ 40748.96184072 122699.62295594  64961.65717022  63099.14214487
+ 115249.56285456 107799.50275317]
+
+Years of experience: 0
+Predicted salary: [ 40748.96184072 122699.62295594  64961.65717022  63099.14214487
+ 115249.56285456 107799.50275317]
+
+Years of experience: 0
+Predicted salary: [ 40748.96184072 122699.62295594  64961.65717022  63099.14214487
+ 115249.56285456 107799.50275317]
+
+Years of experience: 1
+Predicted salary: [36092.67427736]
+
+Years of experience: 0
+Predicted salary: [ 71558.81018455  70390.79028845  93751.18821055  99591.28769107
+  93751.18821055  58710.5913274   64550.69080792  58710.5913274
+  76230.88976897 108351.43691186  82070.9892495   71558.81018455
+  99007.27774302  99591.28769107  75646.87982092  64550.69080792
+ 111271.48665212  93751.18821055  61630.64106766  93751.18821055
+  70390.79028845  93751.18821055 103679.35732744  70390.79028845
+  70390.79028845  64550.69080792]
+
+Years of experience: 1
+Predicted salary: [58710.5913274]
+
+Years of experience: 0
+Predicted salary: [ 56580.33955616  54717.82453082  91968.12503773 101280.70016446
+  91968.12503773  26780.09915063  45405.24940409  36092.67427736
+  64030.39965754 115249.56285456  73342.97478427  56580.33955616
+ 100349.44265179 101280.70016446  63099.14214487  45405.24940409
+ 119905.85041792  91968.12503773  40748.96184072  91968.12503773
+  54717.82453082  91968.12503773 107799.50275317  54717.82453082
+  54717.82453082  45405.24940409]
+
+Years of experience: 1
+Predicted salary: [36092.67427736]
+
+Years of experience: 0
+Predicted salary: [ 56580.33955616  54717.82453082  91968.12503773 101280.70016446
+  91968.12503773  26780.09915063  45405.24940409  36092.67427736
+  64030.39965754 115249.56285456  73342.97478427  56580.33955616
+ 100349.44265179 101280.70016446  63099.14214487  45405.24940409
+ 119905.85041792  91968.12503773  40748.96184072  91968.12503773
+  54717.82453082  91968.12503773 107799.50275317  54717.82453082
+  54717.82453082  45405.24940409]
+
+Years of experience: 0
+Predicted salary: [ 40748.96184072 122699.62295594  64961.65717022  63099.14214487
+ 115249.56285456 107799.50275317]
+
+Years of experience: 0
+Predicted salary: [ 56580.33955616  54717.82453082  91968.12503773 101280.70016446
+  91968.12503773  26780.09915063  45405.24940409  36092.67427736
+  64030.39965754 115249.56285456  73342.97478427  56580.33955616
+ 100349.44265179 101280.70016446  63099.14214487  45405.24940409
+ 119905.85041792  91968.12503773  40748.96184072  91968.12503773
+  54717.82453082  91968.12503773 107799.50275317  54717.82453082
+  54717.82453082  45405.24940409]
+
+Years of experience: 3
+Predicted salary: 54717.82
+Confidence: 98.82%
+
+Years of experience: 2
+Predicted salary: 45405.25
+Confidence: 98.82%
+
+Years of experience: 0
+Predicted salary: 40748.96
+Confidence: 98.82%
+
+Years of experience: 0
+Predicted salary: 40748.96
+Confidence: 98.82%
+
+Years of experience: 0
+Predicted salary: 40748.96
+Confidence: 98.82%
+
+Years of experience: 999
+Predicted salary: 9330042.65
+Confidence: 98.82%
+
+Years of experience: 100000000
+Predicted salary: 931257539453.02
+Confidence: 98.82%
+
+Years of experience: 1
+Predicted salary: 36092.67
+Prediction interval: (36091.51, 36093.84)
+
+Years of experience: 1
+Predicted salary: 36092.67
+Years of experience: 1
+Predicted salary: 36092.67
+Prediction interval: (36091.51, 36093.84)
+
+Years of experience: 1
+Predicted salary: 36092.67
+Years of experience: 1
+Predicted salary: 36092.67
+Prediction interval: (36091.51, 36093.84)
+
+Years of experience: 1
+Predicted salary: 36092.67
+Years of experience: 1
+Predicted salary: 36092.67
+Prediction interval: (36091.51, 36093.84)
+
+Years of experience: 1
+Predicted salary: 36092.67
+Prediction interval: (36091.51, 36093.84)
+
+Years of experience: 1
+Predicted salary: -26.47
+Prediction interval: (-27.64, -25.31)
+
+Years of experience: 0
+Predicted salary: -18.19
+
+Years of experience: 2
+Predicted salary: -9.90
+Prediction interval: (-11.04, -8.75)
+
+Years of experience: 1
+Predicted salary: -26.47
+Prediction interval: (-27.64, -25.31)
+
+Years of experience: 11
+Predicted salary: 139.27
+Prediction interval: (138.05, 140.50)
+
+Years of experience: 1
+Predicted salary: -26.47
+Prediction interval: (-27.64, -25.31)
+
+Years of experience: 1
+Predicted salary: 36092.67
+Prediction interval: (36091.51, 36093.84)
+
+Years of experience: 1
+Predicted salary: 36092.67
+Prediction interval: (36091.51, 36093.84)
+Confidence percentage: 99.99%
+
+Years of experience: 1
+Predicted salary: 36092.67
+Prediction interval: (36091.51, 36093.84)
+Confidence percentage: 99.99%
+
+Years of experience: 5
+Predicted salary: 73342.97
+Prediction interval: (73341.86, 73344.09)
+Confidence percentage: 100.00%
+
+Years of experience: 1000
+Predicted salary: 9339355.23
+Prediction interval: (9339269.46, 9339440.99)
+Confidence percentage: 100.00%
+
+Years of experience: 0
+Predicted salary: 40748.96
+
+Years of experience: 0
+Predicted salary: 40748.96
+
+Years of experience: -255
+Predicted salary: -2347926.56
+Prediction interval: (-2347949.00, -2347904.12)
+Confidence percentage: 100.00%
+
+Years of experience: 4564
+Predicted salary: 42529372.98
+Prediction interval: (42528980.02, 42529765.93)
+Confidence percentage: 100.00%
+
+Years of experience: 1
+Predicted salary: -26.47
+Prediction interval: (-27.64, -25.31)
+Confidence percentage: 108.82%
+
+Years of experience: 1
+Predicted salary: -26.47
+Prediction interval: (-27.64, -25.31)
+Confidence percentage: 108.82%
+
+Years of experience: 5
+Predicted salary: 39.82
+Prediction interval: (38.71, 40.94)
+Confidence percentage: 94.41%
+
+Years of experience: 6
+Predicted salary: 56.40
+Prediction interval: (55.28, 57.52)
+Confidence percentage: 96.04%
+
+Years of experience: 15
+Predicted salary: 205.57
+Prediction interval: (204.17, 206.98)
+Confidence percentage: 98.63%
+
+Years of experience: 151
+Predicted salary: 2459.71
+Prediction interval: (2447.08, 2472.34)
+Confidence percentage: 98.97%
+
+Years of experience: 1
+Predicted salary: -26.47
+Prediction interval: (-27.64, -25.31)
+Confidence percentage: 108.82%
+
+Years of experience: 2
+Predicted salary: -9.90
+Prediction interval: (-11.04, -8.75)
+Confidence percentage: 123.11%
+
+Years of experience: 3
+Predicted salary: 6.68
+Prediction interval: (5.55, 7.80)
+Confidence percentage: 66.23%
+
+Years of experience: 5
+Predicted salary: 39.82
+Prediction interval: (38.71, 40.94)
+Confidence percentage: 94.41%
+
+Years of experience: 1
+Predicted salary: 36092.67
+Prediction interval: (36091.51, 36093.84)
+Confidence percentage: 99.99%
+
+Years of experience: 2
+Predicted salary: 45405.25
+Prediction interval: (45404.11, 45406.39)
+Confidence percentage: 99.99%
+
+Years of experience: 99999999
+Predicted salary: 931257530140.44
+Prediction interval: (931248910734.26, 931266149546.63)
+Confidence percentage: 100.00%
+
+Years of experience: 1
+Predicted salary: 36092.67
+Prediction interval: (36092.27, 36093.07)
+Confidence percentage: 100.00%
+
+Years of experience: 11
+Predicted salary: 154968.58
+Prediction interval: (154968.10, 154969.05)
+Confidence percentage: 100.00%
+
+Years of experience: 1
+Predicted salary: 42203.01
+Prediction interval: (42202.61, 42203.41)
+Confidence percentage: 100.00%
+
+Years of experience: 2
+Predicted salary: 53479.57
+Prediction interval: (53479.17, 53479.96)
+Confidence percentage: 100.00%
+
+Years of experience: 6
+Predicted salary: 98585.79
+Prediction interval: (98585.39, 98586.20)
+Confidence percentage: 100.00%
+
+Years of experience: 100
+Predicted salary: 1158582.11
+Prediction interval: (1158578.63, 1158585.59)
+Confidence percentage: 100.00%
+
+Years of experience: 10000000000000000000
+Predicted salary: 112765565897041049026560.00
+Prediction interval: (112765208031901438181376.00, 112765923762180659871744.00)
+Confidence percentage: 100.00%
+
+Years of experience: 2
+Predicted salary: 45405.25
+Prediction interval: (45404.11, 45406.39)
+
+Years of experience: 19
+Predicted salary: 203719.03
+Prediction interval: (203717.39, 203720.66)
+
+Years of experience: 1
+Predicted salary: 36092.67
+Prediction interval: (36091.51, 36093.84)
+
+Years of experience: 123
+Predicted salary: 1172226.84
+Prediction interval: (1172216.61, 1172237.07)
+
+Years of experience: 6996969
+Predicted salary: 65159826251.99
+Prediction interval: (65159223155.21, 65160429348.77)
+
+Years of experience: 1
+Predicted salary: 36092.67
+Prediction interval: (36091.51, 36093.84)
+
+Years of experience: 1
+Predicted salary: 42203.01
+Prediction interval: (42202.61, 42203.41)
+
+Years of experience: 5
+Predicted salary: 87309.24
+Prediction interval: (87308.84, 87309.63)
+
+Years of experience: 5
+Predicted salary: 39.82
+Prediction interval: (38.71, 40.94)
+
